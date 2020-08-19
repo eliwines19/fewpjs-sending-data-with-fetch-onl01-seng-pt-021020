@@ -27,7 +27,7 @@ function submitData(name, email) {
   .catch(function(error) {
     let h3 = document.createElement("h3");
     h3.innerHTML = error.message;
-    document.body.appenchChild(h3);
+    document.body.appendChild(h3);
     console.log(error.message);
   });
 };
