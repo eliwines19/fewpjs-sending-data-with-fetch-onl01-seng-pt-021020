@@ -1,6 +1,6 @@
 // Add your code here
 function submitData(name, email) {
-  let formData = { userName: name, userEmail: email }
+  let formData = { name: name, email: email }
 
   let configObj = {
     method: "POST",
