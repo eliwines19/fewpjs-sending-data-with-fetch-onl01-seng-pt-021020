@@ -19,7 +19,7 @@ function submitData(name, email) {
     console.log(object);
   })
   .catch(function(error) {
-    alert("couldn't fetch the data");
+    alert("Unauthorized Access");
     console.log(error.message);
   });
 };
